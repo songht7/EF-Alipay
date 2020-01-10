@@ -1,0 +1,466 @@
+.detail-block {
+	background: #fff;
+	border-bottom: 20upx solid #EBEBEB;
+	padding-bottom: 10upx;
+}
+
+.block-title {
+	font-size: 34upx;
+	padding: 0 20upx 20upx 35upx;
+}
+
+.apply-box {
+	padding-top: 20upx;
+	position: relative;
+	z-index: 2;
+}
+
+.card-box {
+	position: relative;
+	top: -10upx;
+	z-index: 5;
+}
+
+.uni-common-mt {
+	margin: 0 auto 25upx
+}
+
+.uni-card {
+	-webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, .3);
+	box-shadow: 1px 1px 8px rgba(0, 0, 0, .3);
+	margin: 0 0 15upx;
+}
+
+.uni-card-content-inner {
+	padding: 15upx;
+}
+
+.swiper {
+	height: 380upx;
+}
+
+.vli {
+	width: 100%;
+	height: 100%;
+}
+
+.vli2 {
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.slideImg {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+uni-swiper .uni-swiper-dots.uni-swiper-dots-horizontal {
+	bottom: 30upx;
+}
+
+.dtlHead {
+	position: relative;
+}
+
+.dtl-title {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+}
+
+.ser-title {
+	flex: 9;
+	line-height: 1.8;
+	font-size: 32upx;
+}
+
+.ser-abstract,
+.ser-feature {
+	line-height: 1.6;
+}
+
+.ser-feature {
+	font-size: 24upx;
+}
+
+.ser-tag {
+	flex: 1;
+	font-size: 24upx;
+	background: #FE1512;
+	text-align: center;
+	padding: 0 15upx;
+	line-height: 2;
+	color: #fff;
+	position: relative;
+	top: -14upx;
+	right: -14upx;
+	border-radius: 0 5upx 0 5px;
+	background: linear-gradient(135deg, rgba(251, 212, 165, 1), rgba(247, 94, 92, 1));
+}
+
+.apply-num {
+	border-top: 1px solid #CDCDCD;
+	margin-top: 20upx;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	padding: 20upx 0 15upx;
+}
+
+.apply-cell {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	width: 33.3%;
+}
+
+.apply-left,
+.apply-middle {
+	border-right: 1px solid #CDCDCD;
+}
+
+.h3 {
+	font-size: 34upx;
+	padding-bottom: 10upx;
+}
+
+.uni-comment-list {
+	border-bottom: 1px solid #F0F0F0;
+}
+
+.comments {
+	font-size: 34upx;
+	padding: 10upx 20upx 5upx 35upx;
+	border-bottom: 1px solid #CDCDCD;
+	display: flex;
+	justify-content: space-between;
+}
+
+.uni-comment-face {
+	width: 110upx;
+	height: 110upx;
+}
+
+.uni-comment-top {
+	color: #282828;
+}
+
+.to-comment {
+	display: flex;
+	justify-content: flex-end;
+	padding: 20upx 0;
+}
+
+.comment-btn {
+	color: #0078ff;
+	font-size: 28upx;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	letter-spacing: 1px;
+}
+
+.dtl-btns {
+	display: flex;
+	justify-content: space-between;
+	padding: 20upx 20upx 15upx;
+}
+
+.uni-btn-v {
+	position: relative;
+}
+
+.apply-btn,
+.goTo {
+	width: 100%;
+	color: #fff;
+	background: linear-gradient(to right, rgba(249, 215, 68, 1), rgba(252, 165, 38, 1));
+	box-shadow: 3px 5px 10px -1px rgba(249, 215, 68, 0.8);
+	text-align: center;
+	line-height: 2;
+	border-radius: 10upx;
+	font-size: 30upx;
+	letter-spacing: 1px;
+	padding: 15upx 0;
+	border-color: none;
+}
+
+.btnIcon {
+	height: 50%;
+	z-index: 1;
+	right: 10upx;
+	bottom: 18%;
+	position: absolute;
+}
+
+.scroll-Y {
+	height: 1800upx;
+	overflow: hidden;
+}
+
+.visitors {
+	position: fixed;
+	display: none;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 90%;
+	left: 5%;
+	bottom: 10%;
+	background: rgba(76, 76, 76, 0.5);
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 2;
+	font-size: 28upx;
+	z-index: 10;
+	border-radius: 8upx;
+}
+
+.visitShow {
+	display: flex;
+}
+
+.goTo {
+	position: fixed;
+	width: 98%;
+	bottom: 20upx;
+	left: 1%;
+	z-index: 115;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10upx;
+	opacity: 0.8;
+}
+
+.uni-list:first-child:before,
+.half:before,
+.uni-list:after {
+	background: none;
+}
+
+.uni-list.apply-date:after {
+	background: #c8c7cc;
+}
+
+.uni-list.half-box:last-child:after {
+	background: none;
+}
+
+.uni-list-cell-left {
+	padding: 0 10upx;
+}
+
+.radio-block {
+	padding-left: 20upx;
+}
+
+.uni-input {
+	background: #fff;
+}
+
+.half {
+	width: 33.3%;
+	display: flex;
+}
+
+.school-box .uni-input {
+	height: 100upx;
+}
+
+.school-box .uni-input.rowOne {
+	height: 50upx;
+}
+
+.check-agreement {
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	padding: 20upx 0 0;
+}
+
+.agmt-txt {
+	font-size: 28upx;
+}
+
+.qrcodefot {
+	display: block;
+	width: 100%;
+	margin: 40upx auto 0;
+}
+
+.pop-success {
+	width: 70%;
+	height: 50%;
+	position: fixed;
+	top: 35%;
+	left: 15%;
+	z-index: 999;
+	display: none;
+}
+
+.success-show {
+	display: block;
+}
+
+.success-img {
+	display: block;
+	width: 100%;
+}
+
+.int-block {
+	display: flex;
+	justify-content: flex-end;
+	align-content: flex-end;
+	align-items: center;
+	text-align: right;
+}
+
+/* @media screen and (min-device-width: 1025px) {
+	.detail-block {
+		border-bottom: 10px solid #EBEBEB;
+		padding-bottom: 5px;
+	}
+
+	.block-title {
+		font-size: 17px;
+		padding: 0 10px 10px 17.5px;
+	}
+
+	.apply-box {
+		padding-top: 10px;
+	}
+
+	.card-box {
+		top: -5px;
+	}
+
+	.uni-common-mt {
+		margin: 0 auto 12.5px
+	}
+
+	.uni-card {
+		margin: 0 0 7.5px;
+	}
+
+	.uni-card-content-inner {
+		padding: 7.5px;
+	}
+
+	.swiper {
+		height: 300px;
+	}
+
+	uni-swiper .uni-swiper-dots.uni-swiper-dots-horizontal {
+		bottom: 15px;
+	}
+
+	.ser-title {
+		font-size: 16px;
+	}
+
+	.ser-feature {
+		font-size: 12px;
+	}
+
+	.ser-tag {
+		font-size: 12px;
+		padding: 0 17.5px;
+		top: -7px;
+		right: -7px;
+		border-radius: 0 2.5px 0 5px;
+	}
+
+	.apply-num {
+		margin-top: 10px;
+		padding: 10px 0 7.5px;
+	}
+
+	.h3 {
+		font-size: 17px;
+		padding-bottom: 5px;
+	}
+
+	.comments {
+		font-size: 17px;
+		padding: 5px 10px 2.5px 17px;
+	}
+
+	.uni-comment-face {
+		width: 55px;
+		height: 55px;
+	}
+
+	.to-comment {
+		padding: 10px 0;
+	}
+
+	.comment-btn {
+		font-size: 14px;
+	}
+
+	.dtl-btns {
+		padding: 10px 10px 7.5px;
+	}
+
+	.apply-btn,
+	.goTo {
+		border-radius: 5px;
+		font-size: 15px;
+		padding: 7.5px 0;
+	}
+
+	.btnIcon {
+		right: 5px;
+	}
+
+	.scroll-Y {
+		height: 1000px;
+	}
+
+	.visitors {
+		font-size: 14px;
+		border-radius: 4px;
+	}
+
+	.goTo {
+		bottom: 10px;
+		border-radius: 5px;
+	}
+
+	.uni-list-cell-left {
+		padding: 0 5px;
+	}
+
+	.radio-block {
+		padding-left: 10px;
+	}
+
+	.school-box .uni-input {
+		height: 50px;
+	}
+
+	.school-box .uni-input.rowOne {
+		height: 25px;
+	}
+
+	.check-agreement {
+		padding: 10px 0 0;
+	}
+
+	.agmt-txt {
+		font-size: 14px;
+	}
+
+	.qrcodefot {
+		margin: 20px auto 0;
+	}
+}
+ */

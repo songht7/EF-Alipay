@@ -1,0 +1,48 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/detail/ef2",
+			"style": {
+				"navigationBarTitleText": "英孚教育",
+				"backgroundColor": "#EBEBEB",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/error",
+			"style": {
+				"navigationBarTitleText": "错误信息",
+				"backgroundColor": "#E3E3E3",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/detail/thx",
+			"style": {
+				"navigationBarTitleText": "感谢您的注册",
+				"backgroundColor": "transparent",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "试听客",
+		"navigationBarBackgroundColor": "#7C7C7C",
+		"backgroundColor": "#F4F5F6"
+	}
+	
+}
